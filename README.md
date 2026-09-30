@@ -71,47 +71,105 @@ finrisk-ai/
    cd finrisk-ai
    
    
-  **Create virtual environment** 
+2. **Create virtual environment** 
   ```bash 
   python -m venv venv 
   source venv/bin/activate  # On Windows: venv\Scripts\activate 
+  ```
   
-  **Install dependencies**
+3. **Install dependencies**
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-  bash pip install -r requirements.txt Run the application
+4. **Run the application**
 
-bash streamlit run app.py Open in browser Navigate to [http://localhost:**8501**](http://localhost:**8501**)
+   ```bash
+   streamlit run app.py
+   ```
+   
+## Dashboard Features
 
-📱 Dashboard Features
+### 1. Dashboard Overview
+- Real-time transaction monitoring
+- Key performance metrics
+- Risk distribution charts
+- Recent high-risk transactions
 
-Dashboard Overview Real-time transaction monitoring Key performance metrics Risk distribution charts Recent high-risk transactions
+### 2. Risk Analysis
+- Fraud rate by risk category
+- Risk category performance metrics
+- Statistical analysis of patterns
 
-Risk Analysis Fraud rate by risk category Risk category performance metrics Statistical analysis of patterns
+### 3. Model Insights
+- Top fraud detection features
+- Business rules and thresholds
+- Feature importance rankings
 
-Model Insights Top fraud detection features Business rules and thresholds Feature importance rankings
+### 4. Alert Center
+- Critical and high-risk alerts
+- Alert statistics and trends
+- Transaction-level details
 
-Alert Center Critical and high-risk alerts Alert statistics and trends Transaction-level details
+### 5. Business Recommendations
+- Implementation timeline
+- Financial impact analysis
+- Process improvement suggestions
 
-Business Recommendations Implementation timeline Financial impact analysis Process improvement suggestions
+## 🧠 Methodology
 
-🧠 Methodology
+### Data Processing
+- **Data Cleaning**: Removed duplicates, handled missing values
+- **Feature Engineering**: Created risk-based features from transaction patterns
+- **Normalization**: Scaled features for optimal model performance
+- **Class Imbalance**: Applied SMOTE for balanced training
 
-Data Processing Data Cleaning: Removed duplicates, handled missing values Feature Engineering: Created risk-based features from transaction patterns Normalization: Scaled features for optimal model performance Class Imbalance: Applied **SMOTE** for balanced training
+### Model Development
+- **Algorithm Selection**: Random Forest for interpretability and performance
+- **Cross-Validation**: 5-fold CV for robust evaluation
+- **Hyperparameter Tuning**: Grid search for optimal parameters
+- **Feature Selection**: Recursive feature elimination
 
-Model Development Algorithm Selection: Random Forest for interpretability and performance Cross-Validation: 5-fold CV for robust evaluation Hyperparameter Tuning: Grid search for optimal parameters Feature Selection: Recursive feature elimination
+### Risk Scoring
+- **Score Range**: 0-100 (higher = greater fraud probability)
+- **Categories**: VERY LOW (0-20), LOW (20-40), MEDIUM (40-60), HIGH (60-80), CRITICAL (80-100)
+- **Thresholds**: Optimized for business impact
 
-Risk Scoring Score Range: 0-**100** (higher = greater fraud probability) Categories: **VERY** **LOW** (0-20), **LOW** (20-40), **MEDIUM** (40-60), **HIGH** (60-80), **CRITICAL** (80-**100**) Thresholds: Optimized for business impact
+## 📈 Business Value
 
-📈 Business Value
+### Immediate Benefits
+- **Fraud Prevention**: Real-time detection saves $123,830 monthly
+- **Operational Efficiency**: Automated review process reduces manual effort
+- **Risk Management**: Proactive identification of suspicious patterns
 
-Immediate Benefits Fraud Prevention: Real-time detection saves $**123**,**830** monthly Operational Efficiency: Automated review process reduces manual effort Risk Management: Proactive identification of suspicious patterns
+### Long-term Value
+- **Scalability**: System handles increasing transaction volumes
+- **Adaptability**: Model can be retrained with new data patterns
+- **Integration**: API-ready for payment system integration
 
-Long-term Value Scalability: System handles increasing transaction volumes Adaptability: Model can be retrained with new data patterns Integration: **API**-ready for payment system integration
+## 🔮 Future Enhancements
 
-🔮 Future Enhancements Real-time **API** Integration: Connect with payment processing systems Advanced Analytics: Time-series analysis for pattern detection Machine Learning Operations: Automated model retraining pipeline Mobile Application: On-the-go fraud monitoring for executives
+- **Real-time API Integration**: Connect with payment processing systems
+- **Advanced Analytics**: Time-series analysis for pattern detection
+- **Machine Learning Operations**: Automated model retraining pipeline
+- **Mobile Application**: On-the-go fraud monitoring for executives
 
-📞 Contact & Support Developer: [Your Name] Email: [your.email@example.com] LinkedIn: [Your LinkedIn Profile] Portfolio: [Your Portfolio Website]
+## 📞 Contact & Support
 
-📄 License This project is licensed under the **MIT** License - see the **LICENSE** file for details.
+**Developer**: [Your Name]  
+**Email**: [your.email@example.com]  
+**LinkedIn**: [Your LinkedIn Profile]  
+**Portfolio**: [Your Portfolio Website]
 
-🙏 Acknowledgments Dataset source: [Credit Card Fraud Detection - Kaggle] Machine learning frameworks: Scikit-learn, Pandas, NumPy Dashboard framework: Streamlit Visualization library: Plotly
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Dataset source: [Credit Card Fraud Detection - Kaggle]
+- Machine learning frameworks: Scikit-learn, Pandas, NumPy
+- Dashboard framework: Streamlit
+- Visualization library: Plotly
+
+---
