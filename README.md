@@ -27,13 +27,17 @@ A professional fraud detection system with 99.53% accuracy using machine learnin
 ## Project Structure
 ```
 finrisk-ai/
-├── app.py # Main dashboard application
-├── data/ # Data files
-│ ├── model_results.csv # Model predictions
-│ └── feature_importance.csv # Feature importance
-├── models/ # Trained models
-│ └── fraud_model.pkl # Random Forest model
-└── requirements.txt # Python dependencies
+├── app.py                 # Main dashboard
+├── README.md              # Project description
+├── requirements.txt       # Dependencies
+├── .gitignore             # Files to ignore
+├── src/                   # Source code
+│   └── data.py            # Data processing code
+├── data/                  # Only essential data files
+│   ├── model_results.csv
+│   └── feature_importance.csv
+└── models/               # Trained models
+    └── fraud_model.pkl
 ```
 
 ## Model Performance
