@@ -46,6 +46,7 @@ FinRisk AI is an end-to-end fraud detection system that analyzes financial trans
 finrisk-ai/
 ├── app.py # Main dashboard application
 ├── README.md # Project documentation
+├── LICENSE # license file
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Files to exclude from version control
 ├── src/ # Source code modules
