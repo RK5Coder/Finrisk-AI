@@ -71,13 +71,15 @@ finrisk-ai/
    cd finrisk-ai
    
    
-2. **Create virtual environment** 
+2. **Create virtual environment**
+   
   ```bash 
   python -m venv venv 
   source venv/bin/activate  # On Windows: venv\Scripts\activate 
   ```
   
 3. **Install dependencies**
+   
   ```bash
   pip install -r requirements.txt
   ```
@@ -116,7 +118,7 @@ finrisk-ai/
 - Financial impact analysis
 - Process improvement suggestions
 
-## 🧠 Methodology
+## Methodology
 
 ### Data Processing
 - **Data Cleaning**: Removed duplicates, handled missing values
@@ -135,7 +137,7 @@ finrisk-ai/
 - **Categories**: VERY LOW (0-20), LOW (20-40), MEDIUM (40-60), HIGH (60-80), CRITICAL (80-100)
 - **Thresholds**: Optimized for business impact
 
-## 📈 Business Value
+## Business Value
 
 ### Immediate Benefits
 - **Fraud Prevention**: Real-time detection saves $123,830 monthly
@@ -147,25 +149,23 @@ finrisk-ai/
 - **Adaptability**: Model can be retrained with new data patterns
 - **Integration**: API-ready for payment system integration
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **Real-time API Integration**: Connect with payment processing systems
 - **Advanced Analytics**: Time-series analysis for pattern detection
 - **Machine Learning Operations**: Automated model retraining pipeline
 - **Mobile Application**: On-the-go fraud monitoring for executives
 
-## 📞 Contact & Support
+## Contact & Support
 
-**Developer**: [Your Name]  
-**Email**: [your.email@example.com]  
-**LinkedIn**: [Your LinkedIn Profile]  
-**Portfolio**: [Your Portfolio Website]
+**Developer**: Ravi Khunt
+**LinkedIn**: https://www.linkedin.com/in/ravi-khunt01/
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset source: [Credit Card Fraud Detection - Kaggle]
 - Machine learning frameworks: Scikit-learn, Pandas, NumPy
