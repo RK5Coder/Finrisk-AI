@@ -65,9 +65,20 @@ finrisk-ai/
 
 ### Installation Steps
 
-Clone the repository git clone [https://github.com/[your-username]/finrisk-ai.git](https://github.com/[your-username]/finrisk-ai.git) cd finrisk-ai Create virtual environment bash python -m venv venv source venv/bin/activate # On Windows: venv\Scripts\activate Install dependencies
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/[your-username]/finrisk-ai.git
+   cd finrisk-ai
+   
+   
+  **Create virtual environment** 
+  ```bash 
+  python -m venv venv 
+  source venv/bin/activate  # On Windows: venv\Scripts\activate 
+  
+  **Install dependencies**
 
-bash pip install -r requirements.txt Run the application
+  bash pip install -r requirements.txt Run the application
 
 bash streamlit run app.py Open in browser Navigate to [http://localhost:**8501**](http://localhost:**8501**)
 
