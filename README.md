@@ -159,6 +159,7 @@ finrisk-ai/
 ## Contact & Support
 
 **Developer**: Ravi Khunt
+
 **LinkedIn**: https://www.linkedin.com/in/ravi-khunt01/
 
 ## License
@@ -167,7 +168,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Dataset source: [Credit Card Fraud Detection - Kaggle]
+- Dataset source: Credit Card Fraud Detection - Kaggle - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 - Machine learning frameworks: Scikit-learn, Pandas, NumPy
 - Dashboard framework: Streamlit
 - Visualization library: Plotly
